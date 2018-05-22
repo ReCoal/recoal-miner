@@ -56,7 +56,7 @@ struct params
 	int benchmark_block_version = -1;
 
 	params() :
-		binaryName("xmr-stak"),
+		binaryName("recoal-miner"),
 		executablePrefix(""),
 		useAMD(true),
 		AMDCache(true),
