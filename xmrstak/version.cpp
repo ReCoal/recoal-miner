@@ -17,8 +17,8 @@
 #define BACKEND_TYPE unknown
 #endif
 
-#define XMR_STAK_NAME "xmr-stak"
-#define XMR_STAK_VERSION "2.4.3"
+#define XMR_STAK_NAME "recoal-miner"
+#define XMR_STAK_VERSION "0.2.0"
 
 #if defined(_WIN32)
 #define OS_TYPE "win"
