@@ -1,12 +1,10 @@
 ###### fireice-uk's and psychocrypt's
-# XMR-Stak - Monero/Aeon All-in-One Mining Software
+###### Mod by ReCoal Team
+# ReCoal Miner - ReCoal/Monero/Aeon All-in-One Mining Software
 
-**XMR-Stak is ready for the POW change of Monero-v7, Aeon-v7 and Sumukoin-v3**
+**ReCoal Miner is ready for the POW change of Monero-v7, Aeon-v7 and Sumukoin-v3**
 
-XMR-Stak is a universal Stratum pool miner. This miner supports CPUs, AMD and NVIDIA gpus and can be used to mine the crypto currency Monero and Aeon.
-
-## HTML reports
-<img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-hashrate.png" width="260"> <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-results.png" width="260"> <img src="https://gist.githubusercontent.com/fireice-uk/2da301131ac01695ff79539a27b81d68/raw/4c09cdeee86f94df2e9dd86b927e64aded6184f5/xmr-stak-cpu-connection.png" width="260">
+ReCoal Miner is a universal Stratum pool miner. This miner supports CPUs, AMD and NVIDIA gpus and can be used to mine the crypto currency Monero and Aeon.
 
 ## Video setup guide on Windows
 
@@ -38,8 +36,9 @@ XMR-Stak is a universal Stratum pool miner. This miner supports CPUs, AMD and NV
 
 ## Supported altcoins
 
-Besides [Monero](https://getmonero.org), following coins can be mined using this miner:
+Besides [ReCoal](https://recoal.gq), following coins can be mined using this miner:
 
+- [Monero](https://getmonero.org)
 - [Aeon](http://www.aeon.cash)
 - [BBSCoin](https://www.bbscoin.xyz)
 - [Croat](https://croat.cat)
@@ -60,13 +59,17 @@ Please note, this list is not complete, and is not an endorsement.
 
 ## Download
 
-You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/fireice-uk/xmr-stak/releases).
+You can find the latest releases and precompiled binaries on GitHub under [Releases](https://github.com/ReCoal/recoal-miner/releases).
 
 ## Default Developer Donation
 
 By default the miner will donate 2% of the hashpower (2 minute in 100 minutes) to my pool. If you want to change that, edit [donate-level.hpp](xmrstak/donate-level.hpp) before you build the binaries.
 
 If you want to donate directly to support further development, here is my wallet
+ReCoal Team:
+```
+41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePmVQ8DmdxgbfqCUUHH9CPC9t2Fwnwgg8cFs18jNvKUxAi4vrhJ
+```
 
 fireice-uk:
 ```
