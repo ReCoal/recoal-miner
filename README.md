@@ -65,7 +65,8 @@ You can find the latest releases and precompiled binaries on GitHub under [Relea
 
 By default the miner will donate 2% of the hashpower (2 minute in 100 minutes) to my pool. If you want to change that, edit [donate-level.hpp](xmrstak/donate-level.hpp) before you build the binaries.
 
-If you want to donate directly to support further development, here is my wallet
+If you want to donate directly to support further development, here is my wallet   
+   
 ReCoal Team:
 ```
 41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePmVQ8DmdxgbfqCUUHH9CPC9t2Fwnwgg8cFs18jNvKUxAi4vrhJ
