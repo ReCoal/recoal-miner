@@ -113,6 +113,7 @@ void help()
 	cout<< "Supported coin opitons: " << endl << algos << endl; 
 	cout<< "Version: " << get_version_str_short() << endl;
 	cout<<"Brought to by fireice_uk and psychocrypt under GPLv3."<<endl;
+	cout<<"Modded to ReCoal by ReCoal Dev Team."<<endl;
 }
 
 bool read_yes_no(const char* str)
