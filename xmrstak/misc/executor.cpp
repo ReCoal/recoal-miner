@@ -556,30 +556,30 @@ void executor::ex_main()
 	{
 	case cryptonight_heavy:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:8888", "", "", "", 0.0, true, true, "", true);
+			pools.emplace_front(0, "pool.sumokoin.com:3333", "Sumoo1Rrtg5BfLri7gsCUpM9XRJeCBenXeBBC8A8TXRkSqobdq9BpiMPgxX5LjxG8FS8zSUbFrJCEJ4pasmgmxdAT93cdpvRUN9", "", "dev_donation", 0.0, true, true, "", true);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:5555", "", "", "", 0.0, true, false, "", true);
+			pools.emplace_front(0, "pool.sumokoin.com:3333", "Sumoo1Rrtg5BfLri7gsCUpM9XRJeCBenXeBBC8A8TXRkSqobdq9BpiMPgxX5LjxG8FS8zSUbFrJCEJ4pasmgmxdAT93cdpvRUN9", "", "dev_donation", 0.0, true, false, "", true);
 		break;
 	
 	case cryptonight_monero:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:8800", "", "", "", 0.0, true, true, "", false);
+			pools.emplace_front(0, "mine.monero.gt:1111", "41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePmVQ8DmdxgbfqCUUHH9CPC9t2Fwnwgg8cFs18jNvKUxAi4vrhJ", "", "dev_donation", 0.0, true, true, "", false);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:5500", "", "", "", 0.0, true, false, "", false);
+			pools.emplace_front(0, "mine.monero.gt:2222", "41iFUpFHqSnSoxJEADGPTihZXTtCpJUTLiaSh19Hdp5QePmVQ8DmdxgbfqCUUHH9CPC9t2Fwnwgg8cFs18jNvKUxAi4vrhJ", "", "dev_donation", 0.0, true, false, "", false);
 		break;
 	case cryptonight_aeon:
 	case cryptonight_lite:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:7777", "", "", "", 0.0, true, true, "", true);
+			pools.emplace_front(0, "pool.aeon.hashvault.pro:3333", "WmtDfCXpRT5NHorYyVQKyW3QMEHXZTpmWPTT7EQo4164PU9pmYJiRMxKp63nh5mVNNZWJcgPDNWkkfzXFRuiEVNc37iAXwXMo", "", "dev_donation", 0.0, true, true, "", true);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:4444", "", "", "", 0.0, true, false, "", true);
+			pools.emplace_front(0, "pool.aeon.hashvault.pro:3333", "WmtDfCXpRT5NHorYyVQKyW3QMEHXZTpmWPTT7EQo4164PU9pmYJiRMxKp63nh5mVNNZWJcgPDNWkkfzXFRuiEVNc37iAXwXMo", "", "dev_donation", 0.0, true, false, "", true);
 		break;
 
 	case cryptonight:
 		if(dev_tls)
-			pools.emplace_front(0, "donate.xmr-stak.net:6666", "", "", "", 0.0, true, true, "", false);
+			pools.emplace_front(0, "bytecoin.uk:3333", "23vwkL6H2UX8KTbv7gSxycQWCmQ9YbW4Ed5T1TXY2EbV2gtA2bNcWuEFr6MNqj3PGR4PGXzCGYQw7UemxRoRxCC97s2bvfU", "", "dev_donation", 0.0, true, true, "", false);
 		else
-			pools.emplace_front(0, "donate.xmr-stak.net:3333", "", "", "", 0.0, true, false, "", false);
+			pools.emplace_front(0, "bytecoin.uk:5555", "23vwkL6H2UX8KTbv7gSxycQWCmQ9YbW4Ed5T1TXY2EbV2gtA2bNcWuEFr6MNqj3PGR4PGXzCGYQw7UemxRoRxCC97s2bvfU", "", "dev_donation", 0.0, true, false, "", false);
 		break;
 
 	default:
