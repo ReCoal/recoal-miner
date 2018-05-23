@@ -1,4 +1,4 @@
-# Compile xmr-stak
+# Compile recoal-miner
 
 ## Content Overview
 * [Build System](#build-system)
